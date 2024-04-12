@@ -78,13 +78,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={"portfolio.png"}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="My Portfolio"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              ghLink="https://github.com/nod1rDev/Portfolio.n"
+              demoLink="https://portfolio-n-azure.vercel.app/"
             />
           </Col>
         </Row>
