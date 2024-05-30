@@ -16,6 +16,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"nurtext.png"}
+              isBlog={true}
+              title="nurtext.uz"
+              description="This website created specially for a manefucture company.I used Next.js freamwork and backend is .NET.This is privite app, only workers who registered by app's admin will enter."
+              ghLink="https://nurtext.uz/"
+              demoLink=""
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={"/comfory.png"}
@@ -71,17 +82,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"portfolio.png"}
-              isBlog={false}
-              title="My Portfolio"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/nod1rDev/Portfolio.n"
-              demoLink="https://portfolio-n-azure.vercel.app/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
