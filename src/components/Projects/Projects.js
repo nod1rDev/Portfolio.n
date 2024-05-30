@@ -20,7 +20,7 @@ function Projects() {
             <ProjectCard
               imgPath={"nurtext.png"}
               isBlog={true}
-              title="nurtext.uz"
+              title="Nur Textile"
               description="This website created specially for a manefucture company.I used Next.js freamwork and backend is .NET.This is privite app, only workers who registered by app's admin will enter."
               ghLink="https://nurtext.uz/"
               demoLink=""
